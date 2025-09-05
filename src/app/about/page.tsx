@@ -1,7 +1,11 @@
-export default function AboutPage() {
+export const metadata = {
+  title: "About Codevolution",
+};
+
+export default function About() {
   return (
     <div>
-      <h1>This is Our About Page</h1>
+      <h1>About</h1>
     </div>
   );
 }
